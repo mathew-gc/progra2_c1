@@ -28,6 +28,6 @@ public class Game {
     }
 
     public void printGame(){
-        System.out.println("Nombre: " + name + "\nEspacio en GB: " + gSize + "\nGenero: " + gender + "Es online: " + isOnline);
+        System.out.println("Nombre: " + name + "\nEspacio en GB: " + gSize + "\nGenero: " + gender + "\nEs online: " + isOnline);
     }
 }
