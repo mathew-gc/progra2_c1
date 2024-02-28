@@ -1,8 +1,8 @@
 public class Game {
-    private String name;
-    private float gSize;
-    private String gender;
-    private Boolean isOnline;
+    protected String name;
+    protected float gSize;
+    protected String gender;
+    protected Boolean isOnline;
 
     public Game(String pName, float pGSize, String pGender, Boolean pIsOnline){
         this.name = pName; 
